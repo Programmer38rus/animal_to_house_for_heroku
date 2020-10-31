@@ -85,7 +85,6 @@ WSGI_APPLICATION = 'animal_to_house.wsgi.application'
 #     }
 # }
 
-import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
